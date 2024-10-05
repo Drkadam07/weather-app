@@ -38,3 +38,7 @@ You need to have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Drkadam07/weather-app.git
+
+1. change directory and run :
+   ```bash
+   npm install
