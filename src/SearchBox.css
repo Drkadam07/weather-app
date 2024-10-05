@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.SearchBox h2 {
+    font-family: 'Roboto', sans-serif; /* Using the imported font */
+    font-size: 2.5rem;                 /* Adjust the size as per your preference */
+    color: #333;   
+                        /* You can change the color as well */
+                        
+}
+
+
+.SearchBoxWrapper {
+
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+ /* Light background color */
+}
+.SearchBox {
+    width: 80ch;
+    text-align: center;
+    padding: 20px;
+    background-color: #3e3e3ea5; /* White background for the form */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a slight shadow for a better UI */
+}
+
+.weatherInfo{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+/* .weatherInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+} */
+
+
+
+.Temperature {
+    display: inline-block; /* Keeps temperature in line with city name */
+    font-size: 2.5rem; /* Increase the size of the temperature */
+    margin-left: 20px; /* Add spacing between city name and temperature */
+    font-weight: bold;
+    color: #ff5722; /* Set a different color for temperature */
+}
+
+.weatherDetails {
+    margin-top: 10px; /* Adds space above the weather details */
+}
+
+.weatherDetails p {
+    margin: 5px 0; /* Adds margin to space out individual details */
+    font-size: 1rem; /* Set consistent font size for details */
+    color: #555; /* Slightly lighter color for weather details */
+}
+
+.humedity,
+.mintemp,
+.maxtemp,
+.feelslike {
+    font-weight: 500; /* Make the weather details slightly bolder */
+}
+
+
+
+
+.weatherDetails {
+    display: flex;
+    justify-content: space-between; /* Adds space between Chart and text */
+    align-items: center; /* Align items in the center vertically */
+    gap: 20px; /* Optional: Adds space between the Chart and the text */
+}
+
+.weatherText {
+    display: flex;
+    flex-direction: column; /* Arrange text elements vertically */
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mintemp, .maxtemp, .feelslike, .description {
+    margin: 5px 0; /* Space between the text elements */
+}
