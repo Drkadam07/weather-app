@@ -13,7 +13,7 @@ A simple, user-friendly weather application built with React. It fetches real-ti
 
 ## Screenshots
 
-![Weather App Screenshot](path_to_screenshot.png)
+![Weather App Screenshot](./src/assets/ss/weather.png)
 
 ## Tech Stack
 
