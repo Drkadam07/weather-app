@@ -39,6 +39,9 @@ You need to have the following installed:
    ```bash
    git clone https://github.com/Drkadam07/weather-app.git
 
-1. change directory and run :
+2. change directory and install npm :
    ```bash
    npm install
+3. Test code :
+   ```bash
+   npm run dev
